@@ -1,6 +1,7 @@
 
 # React Memorization
 
+## memo
 - Memorization is responsible for memorizing a component.
 
 - Rememorizes it the moment its ***props*** change.
@@ -13,6 +14,17 @@ You should use it when:
 2. We call data from API's 📲.
 3. A component becomes very heavy 🏋️‍♂️.
 4. Performance alerts are displayed in the console 💻.
+
+## useCallaback
+
+- Memorize a function so as not to render every time.
+- Use it always a function is passed as prop of a memorized component.
+- Use it always a function is passed as parameter of an effect.
+
+## useMemo
+- Memorizes a calculated value, so the result of a function.
+- Generates computed properties.
+- Use it in heavy processes.
 
 Important:
 1. For memorizing components we use ***'memo'***.
